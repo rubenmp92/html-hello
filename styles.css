@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(165, 163, 163); 
+}
+div {
+    box-sizing: border-box /*para que el padding no sume en el width*/
+}
+div.wrapper {
+    margin-bottom: 20px;
+}
+header {
+    background-color: white;
+}
+header h1 {
+    padding: 10px;
+    text-align: center;
+}
+.container1 {
+    width: 600px;
+    margin: auto;
+}
+div.box-one {
+    background-color: white;
+    margin-top: 20px;
+}
+div.box-one h2 {
+    margin-top:5px;
+    padding: 10px;
+}
+div.box-one p {
+    padding: 15px;
+}
+div.box-one img {
+    width: 100%;
+}
+
+div.box-one .box-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.box-one .box-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: rgb(133, 131, 131);
+}
